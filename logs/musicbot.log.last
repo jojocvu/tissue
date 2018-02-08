@@ -1,0 +1,81 @@
+[66.677808762] 2018-02-08 01:57:32,211 - INFO - launcher: Starting sanity checks
+[67.181110382] 2018-02-08 01:57:32,212 - INFO - launcher: Checking for Python 3.5+
+[67.681074142] 2018-02-08 01:57:32,212 - INFO - launcher: Checking console encoding
+[67.681074142] 2018-02-08 01:57:32,212 - INFO - launcher: Setting console encoding to UTF-8
+[68.181514740] 2018-02-08 01:57:32,213 - INFO - launcher: Ensuring we're in the right environment
+[70.688247681] 2018-02-08 01:57:32,215 - INFO - launcher: Adding local bins/ folder to path
+[72.192192078] 2018-02-08 01:57:32,217 - INFO - launcher: Required checks passed.
+[73.195219040] 2018-02-08 01:57:32,218 - INFO - launcher: Optional checks passed.
+[74.197292328] 2018-02-08 01:57:32,219 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[3.1123006343841553] 2018-02-08 01:57:35,257 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 213 in _setup_logging: Set logging level to INFO
+[3.1123006343841553] 2018-02-08 01:57:35,257 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 80 in __init__: =========== MusicBot (version 1.9.6_3) ===========
+[3.1132833957672119] 2018-02-08 01:57:35,258 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 86 in __init__: Loaded autoplaylist with 2531 entries
+[3.115788221] launcher-INFO: Connecting
+[5.7728557586669922] 2018-02-08 01:57:37,918 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 1011 in on_ready: Connection established, ready to go.
+[5.7728557586669922] 2018-02-08 01:57:37,918 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 324 in _cache_app_info: Caching app info
+[5.8259971141815186] 2018-02-08 01:57:37,971 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[5.8295063972473145] 2018-02-08 01:57:37,974 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 844 in _scheck_server_permissions: Checking server permissions
+[5.8295063972473145] 2018-02-08 01:57:37,974 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[5.8300077915191650] 2018-02-08 01:57:37,975 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 852 in _scheck_configs: Validating config
+[5.8300077915191650] 2018-02-08 01:57:37,975 - DEBUG - musicbot.config | In config.py::MainThread(13932), line 155 in async_validate: Validating options...
+[5.8300077915191650] 2018-02-08 01:57:37,975 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 855 in _scheck_configs: Validating permissions config
+[5.8305094242095947] 2018-02-08 01:57:37,975 - DEBUG - musicbot.permissions | In permissions.py::MainThread(13932), line 59 in async_validate: Validating permissions...
+[5.8305094242095947] 2018-02-08 01:57:37,975 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1022 in on_ready: Connected to Discord!
+[5.8315122127532959] 2018-02-08 01:57:37,976 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1032 in on_ready: Bot:   411032532646100992/Tissue#2919 [BOT]
+[5.8320133686065674] 2018-02-08 01:57:37,977 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1040 in on_ready: Owner: 202582540270305280/ｱ ﾉ 丂 ｲ ﾑ#7395
+
+[5.8330161571502686] 2018-02-08 01:57:37,978 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1043 in on_ready: Server List:
+[5.8335173130035400] 2018-02-08 01:57:37,978 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1044 in <listcomp>:  - awda
+[5.8345193862915039] 2018-02-08 01:57:37,979 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1044 in <listcomp>:  - Arising Phoenix
+[5.8350210189819336] 2018-02-08 01:57:37,980 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1088 in on_ready: Not bound to any text channels
+[5.8360235691070557] 2018-02-08 01:57:37,981 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1114 in on_ready: Not autojoining any voice channels
+[5.8365252017974854] 2018-02-08 01:57:37,981 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1118 in on_ready: Options:
+[5.8370263576507568] 2018-02-08 01:57:37,982 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1120 in on_ready:   Command prefix: ti!
+[5.8380296230316162] 2018-02-08 01:57:37,983 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1121 in on_ready:   Default volume: 25%
+[5.8385307788848877] 2018-02-08 01:57:37,983 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[5.8390314579010010] 2018-02-08 01:57:37,984 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[5.8405361175537109] 2018-02-08 01:57:37,985 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1125 in on_ready:   Auto-Summon: Enabled
+[5.8415381908416748] 2018-02-08 01:57:37,986 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1126 in on_ready:   Auto-Playlist: Enabled
+[5.8425412178039551] 2018-02-08 01:57:37,987 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1127 in on_ready:   Auto-Pause: Enabled
+[5.8430428504943848] 2018-02-08 01:57:37,988 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1128 in on_ready:   Delete Messages: Enabled
+[5.8440449237823486] 2018-02-08 01:57:37,989 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1130 in on_ready:     Delete Invoking: Disabled
+[5.8450477123260498] 2018-02-08 01:57:37,990 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1131 in on_ready:   Debug Mode: Disabled
+[5.8460505008697510] 2018-02-08 01:57:37,991 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 1132 in on_ready:   Downloaded songs will be saved
+[5.8475544452667236] 2018-02-08 01:57:37,992 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 252 in _join_startup_channels: Found resumable voice channel Arising Phoenix/Music Channel 1🎵
+[5.8480558395385742] 2018-02-08 01:57:37,993 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 258 in _join_startup_channels: Found owner in "Music Channel 1🎵"
+[5.8510637283325195] 2018-02-08 01:57:37,996 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 267 in _join_startup_channels: Attempting to join Arising Phoenix/Music Channel 1🎵
+[5.8525691032409668] 2018-02-08 01:57:37,997 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 437 in get_voice_client: Connection attempt 1 to Music Channel 1🎵
+[5.8525691032409668] 2018-02-08 01:57:37,997 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(13932), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[5.8530724048614502] 2018-02-08 01:57:37,998 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(13932), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[5.8535733222961426] 2018-02-08 01:57:37,998 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(13932), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[5.9157369136810303] 2018-02-08 01:57:38,060 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 2552 in on_voice_state_update: Resumed voice connection to Arising Phoenix/Music Channel 1🎵
+[5.9162380695343018] 2018-02-08 01:57:38,061 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(13932), line 2564 in on_voice_state_update: Voice state update for 411032532646100992/Tissue#2919 on Arising Phoenix/Music Channel 1🎵 -> [RESUME, CONNECT]
+[5.9167401790618896] 2018-02-08 01:57:38,061 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(13932), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[5.9322800636291504] 2018-02-08 01:57:38,077 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(13932), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[6.2516303062438965] 2018-02-08 01:57:38,396 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(13932), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[6.2521314620971680] 2018-02-08 01:57:38,397 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 463 in get_voice_client: Connected in 0.4s
+[6.2521314620971680] 2018-02-08 01:57:38,397 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 464 in get_voice_client: Connected to Arising Phoenix/Music Channel 1🎵
+[6.2536365985870361] 2018-02-08 01:57:38,398 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 805 in deserialize_queue: Deserializing queue for 383815353563742208
+[6.5063095092773438] 2018-02-08 01:57:38,651 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 555 in get_player: Created player via deserialization for server 383815353563742208 with 2 entries
+[6.5063095092773438] 2018-02-08 01:57:38,651 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 283 in _join_startup_channels: Joined Arising Phoenix/Music Channel 1🎵
+[6.5073118209838867] 2018-02-08 01:57:38,652 - VOICEDEBUG - musicbot.player | In player.py::MainThread(13932), line 311 in websocket_check: Starting websocket check loop for Arising Phoenix
+[6.5078117847442627] 2018-02-08 01:57:38,653 - FFMPEG - musicbot.player | In player.py::MainThread(13932), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-ickxt84Se84-Haardtek_-_SUNSHINE_FAIRY_LAND.m4a
+[6.8396975994110107] 2018-02-08 01:57:38,984 - INFO - musicbot.entry | In entry.py::MainThread(13932), line 195 in _download: Download cached: https://www.youtube.com/watch?v=0mL2ze8Rz_o
+[6.8417022228240967] 2018-02-08 01:57:38,986 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 781 in serialize_queue: Serializing queue for 383815353563742208
+[205.0415773391723633] 2018-02-08 02:00:57,186 - FFMPEG - musicbot.player | In player.py::MainThread(13932), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-0mL2ze8Rz_o-SUNSHINE_IN_A_STRONG_WORLD.webm
+[205.6682488918304443] 2018-02-08 02:00:57,813 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 781 in serialize_queue: Serializing queue for 383815353563742208
+[205.6797766685485840] 2018-02-08 02:00:57,824 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 781 in serialize_queue: Serializing queue for 383815353563742208
+[397.7447886466979980] 2018-02-08 02:04:09,890 - INFO - musicbot.entry | In entry.py::MainThread(13932), line 219 in _really_download: Download started: https://youtube.com/watch?v=wd3NsE5wxX0
+[399.1621410846710205] 2018-02-08 02:04:11,307 - INFO - musicbot.entry | In entry.py::MainThread(13932), line 229 in _really_download: Download complete: https://youtube.com/watch?v=wd3NsE5wxX0
+[399.7452459335327148] 2018-02-08 02:04:11,890 - FFMPEG - musicbot.player | In player.py::MainThread(13932), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-wd3NsE5wxX0-Autolaser_PLS_TY_-_Used_To_This_feat._MOONZz.webm
+[400.0274751186370850] 2018-02-08 02:04:12,172 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 781 in serialize_queue: Serializing queue for 383815353563742208
+[434.8953614234924316] 2018-02-08 02:04:47,040 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 2395 in on_message: 202582540270305280/ｱ ﾉ 丂 ｲ ﾑ#7395: ti!skip
+[436.5313389301300049] 2018-02-08 02:04:48,676 - INFO - musicbot.entry | In entry.py::MainThread(13932), line 219 in _really_download: Download started: https://youtube.com/watch?v=rZJXpZPFQaI
+[437.6871356964111328] 2018-02-08 02:04:49,832 - INFO - musicbot.entry | In entry.py::MainThread(13932), line 229 in _really_download: Download complete: https://youtube.com/watch?v=rZJXpZPFQaI
+[438.5203962326049805] 2018-02-08 02:04:50,665 - FFMPEG - musicbot.player | In player.py::MainThread(13932), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-rZJXpZPFQaI-Lil_Kim_-_M.A.F.I.A._Land.webm
+[438.7825725078582764] 2018-02-08 02:04:50,927 - DEBUG - musicbot.bot | In bot.py::MainThread(13932), line 781 in serialize_queue: Serializing queue for 383815353563742208
+[448.4354598522186279] 2018-02-08 02:05:00,580 - INFO - musicbot.bot | In bot.py::MainThread(13932), line 2395 in on_message: 202582540270305280/ｱ ﾉ 丂 ｲ ﾑ#7395: ti!disconnect
+[448.5021367073059082] 2018-02-08 02:05:00,647 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(13932), line 2564 in on_voice_state_update: Voice state update for 411032532646100992/Tissue#2919 on Arising Phoenix/Music Channel 1🎵 -> [DISCONNECT]
